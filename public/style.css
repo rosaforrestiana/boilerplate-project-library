@@ -1,23 +1,36 @@
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(120deg, rgba(80,20,99,1) 0%, rgba(253,184,45,1) 73%);
+  color: white;
+}
+
 .border {
   border-style: solid;
   border-width: 1px;
-  margin: 10px;
+  margin: auto;
 }
 
 #sampleui {
   max-width: 450px;
-  margin-left: 5%;
+  margin: auto;
   height: 100%;
 }
 
 #sampleposting {
   max-width: 450px;
   text-align: center;
-  margin-left: 5%;
+  margin: auto;
 }
 
 #userstories {
-  margin-left: 5%;
+  margin: auto;
 }
 
 form {
@@ -31,4 +44,22 @@ label {
 
 input {
   margin-bottom: 5px;
+  background-color: #e8f4f8
+} 
+
+button {
+  background-color: inherit; 
+}
+
+input[type=submit] {
+  background-color: #501463;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+ul {
+  list-style-image: url('sqpurple.gif');
 }
